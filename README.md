@@ -1,3 +1,12 @@
+# Overview
+This project introduces a personalized gamified platform that helps post-A/L students in Sri Lanka explore and pursue IT-related career paths through skill-based assessments, dynamic recommendations, and guided learning journeys.
+
+## Group Members:
+1. Wijesundara S.D.
+2. Rukshan M.K.
+3. Hewawitharana M.P.
+4. Galanga A.I.
+
 # component 01 - Career Recommendation Engine for Students with Strong Analytical Skills 🎓
 This Component  aims to create an adaptive quiz system that assesses users’ skills in key areas like data interpretation, critical thinking, pattern recognition, and statistics. Based on the user's quiz performance, the system provides personalized career path recommendations and offers actionable next steps to help them grow. This solution is designed to guide students, professionals, and career changers into data-driven careers, such as data science, business analytics, and machine learning.
 
@@ -166,13 +175,6 @@ This project is part of the **NEXT platform**, a gamified and interactive career
 - MongoDB Atlas account  
 - Firebase project with Google Authentication  
 - Python 3.8+ (for FastAPI model)  
-
-
-# Group Members:
-1. Wijesundara S.D.
-2. Rukshan M.K.
-3. Hewawitharana M.P.
-4. Galanga A.I.
 
 
 
