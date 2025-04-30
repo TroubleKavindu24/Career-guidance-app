@@ -7,7 +7,7 @@ This project introduces a personalized gamified platform that helps post-A/L stu
 3. Hewawitharana M.P.
 4. Galanga A.I.
 
-# component 01 - Career Recommendation Engine for Students with Strong Analytical Skills 🎓
+# component 01 - Career Recommendation Engine for Students with Strong Analytical Skills 
 This Component  aims to create an adaptive quiz system that assesses users’ skills in key areas like data interpretation, critical thinking, pattern recognition, and statistics. Based on the user's quiz performance, the system provides personalized career path recommendations and offers actionable next steps to help them grow. This solution is designed to guide students, professionals, and career changers into data-driven careers, such as data science, business analytics, and machine learning.
 
 ## Function 1: Adaptive Quiz Engine for Career Path Recommendation
