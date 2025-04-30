@@ -181,53 +181,82 @@ This project is part of the **NEXT platform**, a gamified and interactive career
 This component focuses on empowering students with strong artistic and creative abilities by guiding them toward technology-integrated creative careers such as UI/UX Design, Game Design, Multimedia Arts, and Creative Development. The system evaluates creative skills using adaptive assessments and portfolio-based analysis. Based on the results, it recommends personalized career paths and skill-building courses, allowing users to grow from beginner to expert in their chosen creative domain.
 
 
-Function 1: Adaptive Quiz & Creative Skill Categorization
-This function delivers an adaptive quiz system that evaluates users based on their performance in creativity-based tasks such as visual design understanding, storytelling, innovation, and problem-solving. Users are assessed progressively from easy to hard levels.
+## 🔢 **Functions**
 
-Initial Skill Diagnosis: Easy-level questions identify baseline creative aptitude.
+---
 
-Adaptive Progression: Users are promoted to medium and hard-level questions based on their correct responses, or reverted to easier levels if they struggle.
+### **Function 1: Adaptive Quiz & Creative Skill Categorization**
 
-Creative Tier Classification: After the quiz, users are placed into one of Three tiers:
-Intermediate → Advanced → Expert
+This function delivers an adaptive quiz system that evaluates users based on their performance in creativity-based tasks such as:
 
+- Visual design understanding  
+- Storytelling  
+- Innovation  
+- Problem-solving  
 
-Function 2: Portfolio Analysis & ML-Driven Recommendation
-This function allows users to submit creative portfolios (e.g., designs, sketches, mockups) which are analyzed using computer vision and scoring logic. Combined with quiz performance, this data feeds into a trained ML model to recommend courses and career paths that align with both skill level and creativity profile.
+Users are assessed progressively from easy to hard levels.
 
-Portfolio Upload: Users upload samples of their creative work (images, PDFs, videos).
+**Key Mechanics:**
+- **Initial Skill Diagnosis**: Easy-level questions identify baseline creative aptitude.
+- **Adaptive Progression**: Users are promoted to medium and hard-level questions based on their correct responses or reverted to easier levels if they struggle.
+- **Creative Tier Classification**: After the quiz, users are placed into one of three tiers:
+  - Intermediate  
+  - Advanced  
+  - Expert
 
-Creative Pattern Recognition: OpenCV and TensorFlow are used to detect innovation, style consistency, and design language.
+---
 
-Career Path Matching: The system applies collaborative filtering to suggest careers pursued by similar creative profiles (e.g., Visual Designer, Game Artist, UI Developer).
+### **Function 2: Portfolio Analysis & ML-Driven Recommendation**
 
+This function allows users to submit creative portfolios (e.g., designs, sketches, mockups), which are analyzed using computer vision and scoring logic. Combined with quiz performance, this data feeds into a trained ML model.
 
-Function 3: Progressive Skill Growth & Auto-Upgrading
-As users complete recommended Udemy-style courses and upload completion certificates, the system automatically tracks their progress and upgrades their tier level.
+**Steps Involved:**
+- **Portfolio Upload**: Users upload samples of their creative work (images, PDFs, videos).
+- **Creative Pattern Recognition**: 
+  - Uses OpenCV and TensorFlow to detect:
+    - Innovation  
+    - Style consistency  
+    - Design language
+- **Career Path Matching**: 
+  - Uses collaborative filtering to suggest career paths followed by similar creative profiles, such as:
+    - Visual Designer  
+    - Game Artist  
+    - UI Developer
 
-Skill Upgrade System: Completion of learning objectives (e.g., courses, tasks) results in promotion to the next creative level.
+---
 
-Final Stage: Once users reach the “Expert” level, the system finalizes career recommendations and visualizes a roadmap toward job roles aligned with creative industries.
+### **Function 3: Progressive Skill Growth & Auto-Upgrading**
 
+As users complete recommended courses (e.g., from Udemy) and upload completion certificates, the system automatically tracks their progress and upgrades their creative tier level.
+
+**Core Features:**
+- **Skill Upgrade System**: Completion of learning objectives results in promotion to the next creative level.
+- **Final Stage**: Upon reaching the “Expert” level:
+  - The system finalizes career recommendations.
+  - A personalized roadmap toward relevant job roles is visualized.
+
+---
 
 ## 💡 **Key Features**
 
-Creative Adaptive Quiz: Dynamically adjusts question difficulty and creativity challenge based on user performance.
-Portfolio-Based Analysis: Leverages image and pattern recognition for skill scoring.
-Tiered Skill Classification: Categorizes users from Novice to Expert based on performance.
-Career Path Recommendation: Suggests personalized tech-career tracks in creative domains.
-Roadmap Visualization: Shows visual journey from learning to career alignment.
-Auto-Level Upgrades: Recognizes completed courses and updates user skill level.
+- **Creative Adaptive Quiz**: Dynamically adjusts question difficulty and creativity challenges based on user performance.  
+- **Portfolio-Based Analysis**: Leverages image and pattern recognition for skill scoring.  
+- **Tiered Skill Classification**: Categorizes users from Novice to Expert based on performance.  
+- **Career Path Recommendation**: Suggests personalized tech-career tracks in creative domains.  
+- **Roadmap Visualization**: Shows visual journey from learning to career alignment.  
+- **Auto-Level Upgrades**: Recognizes completed courses and updates user skill level.
 
+---
 
 ## 🛠️ **Technologies Used**
 
-Frontend: React native, Tailwind CSS (for responsive and creative UI design)
-Backend: Node.js, Flask (Python) for quiz engine, portfolio analysis, and ML integration
-Machine Learning: TensorFlow & OpenCV for creative pattern analysis
-Recommendation System: Surprise library (collaborative filtering)
-Database (optional): MongoDB or Firebase to store user profiles, quiz scores, and portfolio links
-API: Flask REST API for frontend-backend communication
+- **Frontend**: React Native, Tailwind CSS (for responsive and creative UI design)  
+- **Backend**: Node.js, Flask (Python) for quiz engine, portfolio analysis, and ML integration  
+- **Machine Learning**: TensorFlow & OpenCV for creative pattern analysis  
+- **Recommendation System**: Surprise library (collaborative filtering)  
+- **Database (optional)**: MongoDB or Firebase to store user profiles, quiz scores, and portfolio links  
+- **API**: Flask REST API for frontend-backend communication
+
 
 
 ## 🔧 **Setup Instructions**
