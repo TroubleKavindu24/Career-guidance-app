@@ -178,7 +178,7 @@ This project is part of the **NEXT platform**, a gamified and interactive career
 
 ---
 
-### 🎨 ***Component 04 - Personalized Career Planner for Students with Artistic and Creative Talents***
+#### 🎨 Component 04 - Personalized Career Planner for Students with Artistic and Creative Talents
 
 This component focuses on empowering students with strong artistic and creative abilities by guiding them toward technology-integrated creative careers such as UI/UX Design, Game Design, Multimedia Arts, and Creative Development. The system evaluates creative skills using adaptive assessments and portfolio-based analysis. Based on the results, it recommends personalized career paths and skill-building courses, allowing users to grow from beginner to expert in their chosen creative domain.
 
