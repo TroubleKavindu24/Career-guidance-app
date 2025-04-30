@@ -95,6 +95,79 @@ Dataset - https://www.kaggle.com/datasets/thedevastator/dataset-for-solving-math
     pip install -r requirements.txt  
     python train.py
 
+
+# Component 3: Leadership Assessment Component for Post-A/L Students
+
+This project is part of the **NEXT platform**, a gamified and interactive career guidance system aimed at empowering post-A/L students in Sri Lanka. This component focuses on identifying and nurturing students with strong **leadership and organizational skills**, guiding them toward **leadership-oriented IT careers**.
+
+---
+
+## 🧠 Component Focus: Students with Leadership/Organizational Strengths
+
+- Identify students with exceptional **leadership, decision-making, planning, and team management** capabilities.
+- Use **scenario-based simulations, strategic problem-solving, and personality tests** to assess these strengths.
+- Generate a **personalized career roadmap** toward roles such as:
+  - IT Project Manager  
+  - Technology Consultant  
+  - Tech Entrepreneur
+- Use **gamification** and **visual analytics** to keep students engaged and motivated.
+
+---
+
+## 🧱 Key Requirements
+
+### 👤 User Requirements
+- Take leadership and personality assessments  
+- Experience interactive decision-making simulations  
+- View skill reports and visual feedback  
+- Get a personalized career roadmap  
+- Earn badges/points for engagement  
+- Track leadership growth over time  
+
+### ⚙️ Functional Requirements
+- Run Unity-based simulations for leadership assessment  
+- Analyze decisions and actions to evaluate leadership traits  
+- Generate dashboards and visual reports  
+- Map user profiles to leadership IT careers  
+- Display adaptive career roadmaps  
+- Persist user progress and skill data  
+- Integrate gamification and achievement tracking  
+
+---
+
+## 🛠️ Technologies Used
+
+### 🖥️ Frontend
+- **Framework:** React Native  
+- **State Management:** Redux  
+- **Tool:** Visual Studio Code  
+
+### ⚙️ Backend
+- **Framework:** Node.js + Express.js  
+- **Authentication:** Firebase Auth (Google login)  
+- **Database:** MongoDB Atlas  
+- **Tool:** Visual Studio Code  
+
+### 🤖 Machine Learning
+- **Framework:** FastAPI  
+- **Libraries:** Scikit-learn / TensorFlow, Pandas, NumPy  
+- **Tool:** Google Colab  
+
+### 🌐 Other Tools
+- **APIs:** REST APIs for communication  
+- **Version Control:** Git & GitHub  
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js and npm  
+- MongoDB Atlas account  
+- Firebase project with Google Authentication  
+- Python 3.8+ (for FastAPI model)  
+
+
 # Group Members:
 1. Wijesundara S.D.
 2. Rukshan M.K.
