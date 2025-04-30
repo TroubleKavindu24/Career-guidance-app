@@ -32,7 +32,7 @@ After the user completes the quiz, the trained neural network model predicts the
 
    
 
-## 💡 Key Features
+##  Key Features
 
 1.Dynamic Quiz Engine: Adjusts quiz difficulty in real-time based on user performance.
 
@@ -42,7 +42,7 @@ After the user completes the quiz, the trained neural network model predicts the
 
 4.Real-Time Feedback: Provides immediate feedback on user progress and skill level.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 Frontend: React, Tailwind CSS (for responsive UI design)
 
 Backend: Flask (Python) for serving the model and handling requests
@@ -111,7 +111,7 @@ This project is part of the **NEXT platform**, a gamified and interactive career
 
 ---
 
-## 🧠 Component Focus: Students with Leadership/Organizational Strengths
+##  Component Focus: Students with Leadership/Organizational Strengths
 
 - Identify students with exceptional **leadership, decision-making, planning, and team management** capabilities.
 - Use **scenario-based simulations, strategic problem-solving, and personality tests** to assess these strengths.
@@ -123,9 +123,9 @@ This project is part of the **NEXT platform**, a gamified and interactive career
 
 ---
 
-## 🧱 Key Requirements
+##  Key Requirements
 
-### 👤 User Requirements
+###  User Requirements
 - Take leadership and personality assessments  
 - Experience interactive decision-making simulations  
 - View skill reports and visual feedback  
@@ -133,7 +133,7 @@ This project is part of the **NEXT platform**, a gamified and interactive career
 - Earn badges/points for engagement  
 - Track leadership growth over time  
 
-### ⚙️ Functional Requirements
+###  Functional Requirements
 - Run Unity-based simulations for leadership assessment  
 - Analyze decisions and actions to evaluate leadership traits  
 - Generate dashboards and visual reports  
@@ -144,31 +144,31 @@ This project is part of the **NEXT platform**, a gamified and interactive career
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
-### 🖥️ Frontend
+###  Frontend
 - **Framework:** React Native  
 - **State Management:** Redux  
 - **Tool:** Visual Studio Code  
 
-### ⚙️ Backend
+###  Backend
 - **Framework:** Node.js + Express.js  
 - **Authentication:** Firebase Auth (Google login)  
 - **Database:** MongoDB Atlas  
 - **Tool:** Visual Studio Code  
 
-### 🤖 Machine Learning
+###  Machine Learning
 - **Framework:** FastAPI  
 - **Libraries:** Scikit-learn / TensorFlow, Pandas, NumPy  
 - **Tool:** Google Colab  
 
-### 🌐 Other Tools
+###  Other Tools
 - **APIs:** REST APIs for communication  
 - **Version Control:** Git & GitHub  
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js and npm  
